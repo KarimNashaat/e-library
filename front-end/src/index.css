@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family:"Playfair Display" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.user-img {
+  border-radius: 50%;
+  box-shadow: inset 0 0 25px 25px rgb(109, 109, 109);
+}
+
+.ant-col {
+  height: 100%;
+  /* padding-bottom: 32px; */
+}

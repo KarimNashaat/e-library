@@ -1,0 +1,14 @@
+.cust-navbar{
+    background-color: #146daf;
+    color: white;
+    padding: 0px;
+}
+
+@media (min-width: 992px) {
+    .cust-nav-items {
+        display: flex;
+        justify-content: end;
+        margin-right: 32px;
+        color: white;
+    }
+}

@@ -1,0 +1,24 @@
+.bookHistory-container {
+    display: flex;
+}
+
+.bookHistory-card {
+    width: 25%;
+    margin-right: 32px;
+    height: fit-content;
+    min-height: 300px;
+}
+
+@media (max-width: 768px) {
+    .bookHistory-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bookHistory-card {
+        width: 50%;
+        margin: auto;
+        height: fit-content;
+        margin-bottom: 32px;
+        /* min-height: 300px;   */
+    }
+}
